@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.hacoversin;
+})();
 })();
 </script>
 ```
@@ -109,6 +111,7 @@ v = hacoversin( -3.141592653589793/6.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x = linspace( 0.0, TWO_PI, 100 );
 
@@ -117,6 +120,7 @@ for ( i = 0; i < x.length; i++ ) {
     console.log( hacoversin( x[ i ] ) );
 }
 
+})();
 })();
 </script>
 </body>
@@ -215,9 +219,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos/tree/umd
+[@stdlib/math/base/special/hacovercos]: https://github.com/stdlib-js/math-base-special-hacovercos/tree/umd/tree/umd
 
-[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin/tree/umd
+[@stdlib/math/base/special/haversin]: https://github.com/stdlib-js/math-base-special-haversin/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
