@@ -65,7 +65,7 @@ The half-value [coversed sine][coversed-sine] is defined as
 To use in Observable,
 
 ```javascript
-hacoversin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@umd/browser.js' )
+hacoversin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -77,7 +77,7 @@ var hacoversin = require( 'path/to/vendor/umd/math-base-special-hacoversin/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -121,7 +121,7 @@ v = hacoversin( -3.141592653589793/6.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-hacoversin@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
