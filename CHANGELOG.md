@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-17)
+## Unreleased (2024-06-20)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`1ea46e9`](https://github.com/stdlib-js/stdlib/commit/1ea46e990236941d977d6dc872ba0475eab366e8) - **docs:** use correct function name in example in `math/base/special/hacoversin` [(##2409)](#2409 ) _(by Gunj Joshi)_
 -   [`806075b`](https://github.com/stdlib-js/stdlib/commit/806075b124d1ab4fb7a541c117e0c7b6399a08b9) - **feat:** add C implementation for `math/base/special/hacoversin` [(##2387)](#2387) _(by Gunj Joshi)_
 -   [`41d41e9`](https://github.com/stdlib-js/stdlib/commit/41d41e959b4eaad3c631e6898e3144a4015a5458) - **test:** include trailing newlines in Julia-generated JSON fixtures _(by Philipp Burckhardt)_
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
